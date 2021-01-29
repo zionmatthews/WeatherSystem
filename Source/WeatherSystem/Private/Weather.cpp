@@ -3,6 +3,7 @@
 
 #include "Weather.h"
 
+
 // Sets default values
 AWeather::AWeather()
 {
@@ -11,17 +12,18 @@ AWeather::AWeather()
 
 }
 
-// Called when the game starts or when spawned
-void AWeather::BeginPlay()
+// The T Key
+void AWeather::bpf__InpActEvt_T_K2Node_InputKeyEvent_0__pf(FKey bpp__Key__pf)
 {
-	Super::BeginPlay();
-	
+	b0l__K2Node_InputKeyEvent_Key__pf = bpp__Key__pf;
+	bpf__ExecuteUbergraph_WeatherBP__pf_0(33);
 }
 
-// Called every frame
-void AWeather::Tick(float DeltaTime)
+//The R Key
+void AWeather::bpf__InpActEvt_R_K2Node_InputKeyEvent_1__pf(FKey bpp__Key__pf)
 {
-	Super::Tick(DeltaTime);
-
+	b0l__K2Node_InputKeyEvent_Key_1__pf = bpp__Key__pf;
+	bpf__ExecuteUbergraph_WeatherBP__pf_2(20);
 }
+
 
