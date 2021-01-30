@@ -6,4 +6,9 @@
 
 "Esc" to open the pause menu
 
-"Y" to open the Weather System Menu
+"R" To make it rain and to turn it off
+
+"T" To make it snow and to turn it off
+
+# Information
+Everything currently works in blueprint
