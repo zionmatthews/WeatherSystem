@@ -10,7 +10,7 @@
 
 "T" To make it snow and to turn it off (BluePrint)
 
-To make it automatic rain. Drag the weather effect c++ class into the scene.
+To make it automatically rain. Drag the weather effect c++ class into the scene.
 
-To make it auomatic snow. Drag the weather snow c++ class into the scene.
+To make it automatically snow. Drag the weather snow c++ class into the scene.
 
